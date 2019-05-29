@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="feb3833dce2a47d5964745c95b3d9cac" Name="Diagram1">
+        <EntityTypeShape EntityType="ballstatsModel.PLAYER" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ballstatsModel.USERTEAM" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3864608B" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__41EDCAC5" ManuallyRouted="false" />
+        <AssociationConnector Association="ballstatsModel.FK__USERTEAM__Player__42E1EEFE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,176 @@
+td {
+  font-size: 90%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+  color: black
+}
+
+#teamTableContainer{
+  padding: 5px;
+}
+
+#playerTab {
+position: relative;
+font-size: 12px;
+color: black;
+background-color: #ffffff;
+background: transparent; 
+
+}
+#playerTab_filter{
+  color: #ffffff;
+}
+
+#playerTab_info{
+  color: #ffffff;
+}
+
+#playerTab_paginate{
+  color: #ffffff;
+}
+#UserTeam {
+  position: relative;
+  background-color: #ffffff;
+  font-size: 12px;
+  color: black;
+  background: transparent; 
+  
+
+
+}
+#UserTeam_filter{
+  color: #ffffff;
+}
+#UserTeam_info {
+  color: #ffffff;
+}
+#UserTeam_paginate{
+  color: #ffffff;
+}
+body { 
+    background: url("TestBackGround.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+      
+  }
+
+#teamTab{
+position: absolute;
+top: 80px;
+left: 950px;
+font-size: 12px;
+color: #c1beaa;
+
+
+}
+
+.nav-link {
+color: rgba(0,0,0,.9) !important; 
+}
+
+#Team {
+  width: 45%;
+  font-size: 12px;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 12px;
+}
+
+#Main {
+position: absolute;
+top: 110px;
+left: 10px;
+visibility: hidden;
+
+}
+
+img {
+  width: 50%; 
+  height: 50%; 
+  object-fit: contain;  
+}
+#logo {
+  position: absolute;
+  top: 70px;
+  right: -195px;
+}
+
+#teamTable_info, a#teamTable_previous.paginate_button.previous.disabled, 
+a#teamTable_previous.paginate_button.previous, a#teamTable_next.paginate_button.next.disabled, 
+a#teamTable_next.paginate_button.next, span.ellipsis,#teamTable_paginate > span > a{
+color: lightgray !important ;  
+}
+#teamTable_paginate > span > a.paginate_button.current {
+color: #333 !important;
+}
+
+#pickedPlayers{
+padding: 25px;
+}
+
+th,
+td {
+  white-space: nowrap;
+}
+#scrollSwitch{
+  background-color: black;
+}
+
+.onoffswitch {
+  position: relative; width: 90px;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+  display: none;
+}
+
+.onoffswitch-label {
+  display: block; overflow: hidden; cursor: pointer;
+  border: 2px solid #999999; border-radius: 20px;
+}
+
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+  font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+  content: "ON";
+  padding-left: 10px;
+  background-color: #34A7C1; color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+  content: "OFF";
+  padding-right: 10px;
+  background-color: #EEEEEE; color: #999999;
+  text-align: right;
+}
+
+.onoffswitch-switch {
+  display: block; width: 18px; margin: 6px;
+  background: #FFFFFF;
+  position: absolute; top: 0; bottom: 0;
+  right: 56px;
+  border: 2px solid #999999; border-radius: 20px;
+  transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px; 
+}

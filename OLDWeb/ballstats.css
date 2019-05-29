@@ -1,0 +1,324 @@
+#InputSearch {
+  width: 40%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.checkboxOne label {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: all .5s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+
+  background: #ccc;
+}
+
+#formgroup {
+  width: 30%;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 12px;
+  position: fixed; 
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+
+}
+#Team1 {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 12px;
+}
+#Team2 {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 12px;
+}
+
+#teamCreator {
+  text-align: center;
+}
+
+#playerTab {
+  position: sticky !important;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: #000;
+  background-color: #ffffff; 
+}
+#playerTab_filter {
+  color: #ffffff;
+}
+#teamTab{
+  position: absolute;
+  top: 80px;
+  left: 750px;
+  font-size: 15px;
+  color: #000;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  
+}
+
+#subBtn{
+  position: absolute;
+  top: 20px;
+  left: 950px;
+}
+
+body { 
+  background: url("TestBackGround.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#logo {
+  position: absolute;
+  top: 70px;
+  left: 1200px;
+}
+
+#teamForm {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+#TeamSelect1 {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+#ChallengeHead{
+  position: absolute;
+  top: 100px;
+  left: 850px;
+  color: crimson;
+}
+
+#TeamSelect2 {
+  position: absolute;
+  top: 100px;
+  right: 500px;
+}
+
+#Header {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  left : auto; 
+}
+
+#Header a.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 47px 0 32px;
+  
+}
+
+img { 
+  width: 50%; 
+  height: 50%; 
+  object-fit: contain; 
+} 
+#Main {
+position: absolute;
+top: 180px;
+left: 50px;
+visibility: hidden;
+}
+
+#loginInput {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+#NewUser{
+  width: 50%
+}
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+background-color: #c1beaa;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+.teamForm {
+background-color: #c1beaa;
+position: absolute;
+top: 100px;
+left: 10px;
+}
+
+.modal {
+display: none; 
+position: fixed; 
+z-index: 1; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%; 
+overflow: auto; 
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0,0.4); 
+padding-top: 60px;
+}
+
+.modal-content {
+background-color: #a56969;
+margin: 5% auto 15% auto; 
+border: 1px solid #888;
+width: 80%; 
+}
+
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+cursor: pointer;
+}
+
+@media screen and (max-width: 300px) {
+span.psw {
+   display: block;
+   float: none;
+}
+.cancelbtn {
+   width: 100%;
+}
+}
+
+
+div#playerTab_info.dataTables_info, a#playerTab_previous.paginate_button.previous.disabled, 
+a#playerTab_previous.paginate_button.previous, a#playerTab_next.paginate_button.next.disabled, 
+a#playerTab_next.paginate_button.next, span.ellipsis,#playerTab_paginate > span > a, #playerTab_next,.paginate_button.next{
+color: rgb(92,226,173) !important ;  
+font-weight: bolder;
+}
+#playerTab_paginate > span > a.paginate_button.current {
+color: #333 !important;
+}
+
+/*--NEW CODE--*/
+
+#NewUser {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/*for scroller*/
+th,
+td {
+  white-space: nowrap;
+}
+
+.onoffswitch {
+  position: relative; width: 90px;
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+  display: none;
+}
+
+.onoffswitch-label {
+  display: block; 
+  overflow: hidden; 
+  cursor: pointer;
+  border: 2px solid #999999; 
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+  font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+  box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+  content: "ON";
+  padding-left: 10px;
+  background-color: #34A7C1; color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+  content: "OFF";
+  padding-right: 10px;
+  background-color: #EEEEEE; color: #999999;
+  text-align: right;
+}
+
+.onoffswitch-switch {
+  display: block; width: 18px; margin: 6px;
+  background: #FFFFFF;
+  position: absolute; top: 0; bottom: 0;
+  right: 56px;
+  border: 2px solid #999999; border-radius: 20px;
+  transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px; 
+}

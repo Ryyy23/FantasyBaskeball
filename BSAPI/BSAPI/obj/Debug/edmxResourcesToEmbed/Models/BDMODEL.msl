@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ballstatsModelStoreContainer" CdmEntityContainer="ballstatsEntities">
+    <EntitySetMapping Name="PLAYER">
+      <EntityTypeMapping TypeName="ballstatsModel.PLAYER">
+        <MappingFragment StoreEntitySet="PLAYER">
+          <ScalarProperty Name="PLAYER1" ColumnName="PLAYER" />
+          <ScalarProperty Name="TEAM" ColumnName="TEAM" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="GP" ColumnName="GP" />
+          <ScalarProperty Name="W" ColumnName="W" />
+          <ScalarProperty Name="L" ColumnName="L" />
+          <ScalarProperty Name="MIN" ColumnName="MIN" />
+          <ScalarProperty Name="PTS" ColumnName="PTS" />
+          <ScalarProperty Name="FGM" ColumnName="FGM" />
+          <ScalarProperty Name="FGA" ColumnName="FGA" />
+          <ScalarProperty Name="FG_" ColumnName="FG%" />
+          <ScalarProperty Name="C3PM" ColumnName="3PM" />
+          <ScalarProperty Name="C3PA" ColumnName="3PA" />
+          <ScalarProperty Name="C3P_" ColumnName="3P%" />
+          <ScalarProperty Name="FTM" ColumnName="FTM" />
+          <ScalarProperty Name="FTA" ColumnName="FTA" />
+          <ScalarProperty Name="FT_" ColumnName="FT%" />
+          <ScalarProperty Name="OREB" ColumnName="OREB" />
+          <ScalarProperty Name="DREB" ColumnName="DREB" />
+          <ScalarProperty Name="REB" ColumnName="REB" />
+          <ScalarProperty Name="AST" ColumnName="AST" />
+          <ScalarProperty Name="TOV" ColumnName="TOV" />
+          <ScalarProperty Name="STL" ColumnName="STL" />
+          <ScalarProperty Name="BLK" ColumnName="BLK" />
+          <ScalarProperty Name="PF" ColumnName="PF" />
+          <ScalarProperty Name="FP" ColumnName="FP" />
+          <ScalarProperty Name="DD2" ColumnName="DD2" />
+          <ScalarProperty Name="TD3" ColumnName="TD3" />
+          <ScalarProperty Name="C___" ColumnName="+/-" />
+          <ScalarProperty Name="RAT" ColumnName="RAT" />
+          <ScalarProperty Name="DIFF" ColumnName="DIFF" />
+          <ScalarProperty Name="RPMRAT" ColumnName="RPMRAT" />
+          <ScalarProperty Name="ORRAT" ColumnName="ORRAT" />
+          <ScalarProperty Name="W_L" ColumnName="W/L" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERTEAM">
+      <EntityTypeMapping TypeName="ballstatsModel.USERTEAM">
+        <MappingFragment StoreEntitySet="USERTEAM">
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="TeamName" ColumnName="TeamName" />
+          <ScalarProperty Name="Player1" ColumnName="Player1" />
+          <ScalarProperty Name="Player2" ColumnName="Player2" />
+          <ScalarProperty Name="Player3" ColumnName="Player3" />
+          <ScalarProperty Name="Player4" ColumnName="Player4" />
+          <ScalarProperty Name="Player5" ColumnName="Player5" />
+          <ScalarProperty Name="Player6" ColumnName="Player6" />
+          <ScalarProperty Name="Player7" ColumnName="Player7" />
+          <ScalarProperty Name="Player8" ColumnName="Player8" />
+          <ScalarProperty Name="Player9" ColumnName="Player9" />
+          <ScalarProperty Name="Player10" ColumnName="Player10" />
+          <ScalarProperty Name="Player11" ColumnName="Player11" />
+          <ScalarProperty Name="Player12" ColumnName="Player12" />
+          <ScalarProperty Name="Player13" ColumnName="Player13" />
+          <ScalarProperty Name="Player14" ColumnName="Player14" />
+          <ScalarProperty Name="Player15" ColumnName="Player15" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

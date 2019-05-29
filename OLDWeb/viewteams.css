@@ -1,0 +1,39 @@
+td {
+    font-size: 90%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+#teamTableContainer {
+    padding: 5px;
+}
+
+body { 
+    background: url("./BackGround.jpg");
+    background-size: 130%;
+    width: 100%;    
+  }
+
+#logo {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+#Main {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+   }
+   
+#logo_ { 
+    width: 50%; 
+    height: 50%; 
+    object-fit: contain; 
+} 
+th {
+  color: white !important;
+}
